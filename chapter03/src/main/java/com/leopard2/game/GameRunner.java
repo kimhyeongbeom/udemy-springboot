@@ -1,13 +1,13 @@
 package com.leopard2.game;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner {
-    //private MarioGame game;
-    //private SuperContraGame game;
     private GamingConsole game;
 
-    //public GameRunner(MarioGame game) {
-    //public GameRunner(SuperContraGame game) {
-    public GameRunner(GamingConsole game) {
+    public GameRunner(@Qualifier("superContra") GamingConsole game) {
         this.game = game;
     }
 
