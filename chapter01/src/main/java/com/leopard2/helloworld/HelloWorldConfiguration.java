@@ -1,9 +1,8 @@
-package com.leopard2;
+package com.leopard2.helloworld;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Primary;
 
 
 record Person(String name, int age, Address address) {}
