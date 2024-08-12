@@ -1,7 +1,4 @@
-package com.leopard2;
-
-import com.leopard2.game.GameRunner;
-import com.leopard2.game.GamingConsole;
+package com.leopard2.game;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
