@@ -1,7 +1,5 @@
 package com.leopard2.game4;
 
-import java.util.Arrays;
-
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -18,7 +16,6 @@ class ClassA {
 class ClassB {
 
     private ClassA classA;
-
 
     public ClassB(ClassA classA) {
         System.out.println("Some Initialization logic");
