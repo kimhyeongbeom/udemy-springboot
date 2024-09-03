@@ -5,7 +5,7 @@ import java.util.List;
 public class FP01Functional {
 
     public static void main(String[] args) {
-        //printAllNumbersInListFuntional(List.of(12,9,13,4,6,2,4,12,15));
+        printAllNumbersInListFuntional(List.of(12,9,13,4,6,2,4,12,15));
         printEvenNumbersInListStructured(List.of(12,9,13,4,6,2,4,12,15));
     }
 
